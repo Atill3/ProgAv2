@@ -1,0 +1,9 @@
+<project>
+	<!-- REGISTER THE PROJECT'S PREFAB -->
+	<prefabs>
+		<prefab name="dog" filename="assets/dog.prefab"/>
+	</prefabs>
+	<scenes>
+		<scene name="myscene" filename="assets/Demo.tmx"/>
+	</scenes>
+</project>

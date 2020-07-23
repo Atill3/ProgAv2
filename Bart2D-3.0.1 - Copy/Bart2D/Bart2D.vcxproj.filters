@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{cf4ff352-387d-4ad5-b5c6-7ddd97bbeace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Timer">
+      <UniqueIdentifier>{356f6e04-d376-4695-ab7e-330d7587d7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Scenes">
+      <UniqueIdentifier>{eb976089-9395-4283-823c-5a681abf510d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Graphics">
+      <UniqueIdentifier>{1d779548-af41-452e-8f57-2e199a06eec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Inputs">
+      <UniqueIdentifier>{ab2cc123-eb18-454e-b72d-4196e483a73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{ca759cb1-1d69-4f8a-8866-daecbcba5be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Graphics">
+      <UniqueIdentifier>{26edfbcc-74d0-42d0-a92d-7c908dd13272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Inputs">
+      <UniqueIdentifier>{81316619-b88c-455b-9986-2582e7dbc7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Scenes">
+      <UniqueIdentifier>{3abf7a51-f8fa-4434-aa49-3d26e9712240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Timer">
+      <UniqueIdentifier>{c14edf75-2d27-4b69-9801-f579ed427422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Log">
+      <UniqueIdentifier>{ac2801cd-aef2-4e20-8d67-89fff52580e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Log">
+      <UniqueIdentifier>{f253e6f8-7de6-4843-aae4-7d97589149cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{b5c56f5d-b58f-43f2-970f-0aa45d2617f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{f06639d0-deb0-408c-b01f-9881ed1fcf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Random">
+      <UniqueIdentifier>{895de138-3506-40b5-bddb-c3fa7db9bc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Random">
+      <UniqueIdentifier>{2c2e38ca-1d98-430b-b5f8-68dd138a3eaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Bart2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EWindowState.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IGraphics.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlGraphics.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EKeys.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EMouseButton.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IService.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ITimer.h">
+      <Filter>Header Files\Services\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlTimer.h">
+      <Filter>Header Files\Services\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IInput.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlInput.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ILog.h">
+      <Filter>Header Files\Services\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ConsoleLogger.h">
+      <Filter>Header Files\Services\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\FileLogger.h">
+      <Filter>Header Files\Services\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Entity.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IScene.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SceneService.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Square.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IRandom.h">
+      <Filter>Header Files\Services\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\RandomService.h">
+      <Filter>Header Files\Services\Random</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Bart2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlGraphics.cpp">
+      <Filter>Source Files\Services\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlTimer.cpp">
+      <Filter>Source Files\Services\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlInput.cpp">
+      <Filter>Source Files\Services\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FIleLogger.cpp">
+      <Filter>Source Files\Services\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ConsoleLogger.cpp">
+      <Filter>Source Files\Services\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Entity.cpp">
+      <Filter>Source Files\Services\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SceneService.cpp">
+      <Filter>Source Files\Services\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Square.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\RandomService.cpp">
+      <Filter>Source Files\Services\Random</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

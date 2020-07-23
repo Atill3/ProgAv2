@@ -1,0 +1,20 @@
+﻿  Bart2d.cpp
+  Animation.cpp
+  Atlas.cpp
+  Engine.cpp
+  Entity.cpp
+  AudioService.cpp
+  Music.cpp
+  RandomService.cpp
+  SceneService.cpp
+  SdlGraphics.cpp
+  SdlInput.cpp
+  SdlLogConsole.cpp
+  SdlLogFile.cpp
+  SdlTimer.cpp
+  Sounds.cpp
+  Sprite.cpp
+  Square.cpp
+  Transform.cpp
+  Generating Code...
+  Bart2D.vcxproj -> D:\H2020V2\ProgAvance - 2\Bart2D-3.0.1\Bart2D\Debug\output\Bart2DEngine.lib

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{568a09e1-29be-4ef5-b26f-3661eb62b08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Graphics">
+      <UniqueIdentifier>{d3371044-1237-46a7-999e-5eab569cf8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Inputs">
+      <UniqueIdentifier>{770ca97c-233c-4225-aeb8-63d942e7822c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Scenes">
+      <UniqueIdentifier>{a08af657-d52a-4400-8017-b0177ea2ae83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Timer">
+      <UniqueIdentifier>{e51657ee-8693-4f75-812f-99102b7e0495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{878d9b80-1e6d-43ad-bc63-169d953fb8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Graphics">
+      <UniqueIdentifier>{95558441-3ed3-4b6f-81a0-ef6a81162d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Inputs">
+      <UniqueIdentifier>{9b744e1f-a6b1-4272-9969-7377d0d8ec0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Timer">
+      <UniqueIdentifier>{3665601b-7e03-4b05-a006-c8470e7ca8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Scenes">
+      <UniqueIdentifier>{9d258941-2c08-4f37-9389-06cbb3802d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Logs">
+      <UniqueIdentifier>{8f8981ef-2b67-483c-8c2a-12be69db9ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Logs">
+      <UniqueIdentifier>{e0a96218-a762-4e85-9261-f6ae45728669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{16ba7073-f286-459c-8a78-c6a478fee632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{968a1ce3-2d14-4d0d-88f6-273c4448ab4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Random">
+      <UniqueIdentifier>{c2e6a572-ad08-4709-b8f0-021480de91ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Random">
+      <UniqueIdentifier>{f87b32bf-5bc0-47e0-8a64-04ad6fc98288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services\Audio">
+      <UniqueIdentifier>{3f5aaffe-d3d9-4e63-82b8-321601e5c967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Audio">
+      <UniqueIdentifier>{270fc866-cc3b-4904-b731-da29b55087f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Bart2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EWindowState.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IGraphics.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlGraphics.h">
+      <Filter>Header Files\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EKeys.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EMouseButton.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IService.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ITimer.h">
+      <Filter>Header Files\Services\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlTimer.h">
+      <Filter>Header Files\Services\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IInput.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlInput.h">
+      <Filter>Header Files\Services\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ILogFile.h">
+      <Filter>Header Files\Services\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlLogFile.h">
+      <Filter>Header Files\Services\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ILogConsole.h">
+      <Filter>Header Files\Services\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlLogConsole.h">
+      <Filter>Header Files\Services\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Entity.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IScene.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SceneService.h">
+      <Filter>Header Files\Services\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Square.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IRandom.h">
+      <Filter>Header Files\Services\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\RandomService.h">
+      <Filter>Header Files\Services\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Sprite.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Atlas.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Animation.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IAudio.h">
+      <Filter>Header Files\Services\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\AudioService.h">
+      <Filter>Header Files\Services\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Music.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Sounds.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Bart2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlGraphics.cpp">
+      <Filter>Source Files\Services\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlTimer.cpp">
+      <Filter>Source Files\Services\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlInput.cpp">
+      <Filter>Source Files\Services\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlLogFile.cpp">
+      <Filter>Source Files\Services\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Entity.cpp">
+      <Filter>Source Files\Services\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SceneService.cpp">
+      <Filter>Source Files\Services\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlLogConsole.cpp">
+      <Filter>Source Files\Services\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Square.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\RandomService.cpp">
+      <Filter>Source Files\Services\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sprite.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Atlas.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Animation.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\AudioService.cpp">
+      <Filter>Source Files\Services\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Music.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sounds.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

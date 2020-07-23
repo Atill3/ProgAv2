@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Animation.h" />
+    <ClInclude Include="includes\Atlas.h" />
+    <ClInclude Include="includes\Bart2d.h" />
+    <ClInclude Include="includes\Component.h" />
+    <ClInclude Include="includes\EKeys.h" />
+    <ClInclude Include="includes\EMouseButton.h" />
+    <ClInclude Include="includes\Engine.h" />
+    <ClInclude Include="includes\Entity.h" />
+    <ClInclude Include="includes\EWindowState.h" />
+    <ClInclude Include="includes\IAudio.h" />
+    <ClInclude Include="includes\IGraphics.h" />
+    <ClInclude Include="includes\IInput.h" />
+    <ClInclude Include="includes\ILogConsole.h" />
+    <ClInclude Include="includes\ILogFile.h" />
+    <ClInclude Include="includes\IRandom.h" />
+    <ClInclude Include="includes\IScene.h" />
+    <ClInclude Include="includes\IService.h" />
+    <ClInclude Include="includes\ITimer.h" />
+    <ClInclude Include="includes\AudioService.h" />
+    <ClInclude Include="includes\Music.h" />
+    <ClInclude Include="includes\RandomService.h" />
+    <ClInclude Include="includes\SceneService.h" />
+    <ClInclude Include="includes\SdlGraphics.h" />
+    <ClInclude Include="includes\SdlInput.h" />
+    <ClInclude Include="includes\SdlLogConsole.h" />
+    <ClInclude Include="includes\SdlLogFile.h" />
+    <ClInclude Include="includes\SdlTimer.h" />
+    <ClInclude Include="includes\Sounds.h" />
+    <ClInclude Include="includes\Sprite.h" />
+    <ClInclude Include="includes\Square.h" />
+    <ClInclude Include="includes\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Animation.cpp" />
+    <ClCompile Include="sources\Atlas.cpp" />
+    <ClCompile Include="sources\Bart2d.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="sources\Engine.cpp" />
+    <ClCompile Include="sources\Entity.cpp" />
+    <ClCompile Include="sources\AudioService.cpp" />
+    <ClCompile Include="sources\Music.cpp" />
+    <ClCompile Include="sources\RandomService.cpp" />
+    <ClCompile Include="sources\SceneService.cpp" />
+    <ClCompile Include="sources\SdlGraphics.cpp" />
+    <ClCompile Include="sources\SdlInput.cpp" />
+    <ClCompile Include="sources\SdlLogConsole.cpp" />
+    <ClCompile Include="sources\SdlLogFile.cpp" />
+    <ClCompile Include="sources\SdlTimer.cpp" />
+    <ClCompile Include="sources\Sounds.cpp" />
+    <ClCompile Include="sources\Sprite.cpp" />
+    <ClCompile Include="sources\Square.cpp" />
+    <ClCompile Include="sources\Transform.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{7362D47F-4591-40D2-BA8B-659C87AC65DD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Bart2D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\output\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\temp\</IntDir>
+    <TargetName>$(ProjectName)Engine</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\output\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\temp\</IntDir>
+    <TargetName>$(ProjectName)Engine</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>Bart2d.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>includes;$(SolutionDir)Lib\SDL2_image\include;$(SolutionDir)Lib\SDL2\include;$(SolutionDir)Lib\SDL2_mixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib\SDL2\lib\;$(SolutionDir)\Lib\SDL2_image\lib\;$(SolutionDir)\Lib\SDL2_mixer\lib\;$(SolutionDir)\Lib\SDL2_ttf\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006  /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>Bart2d.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib\SDL2\lib\;$(SolutionDir)\Lib\SDL2_image\lib\;$(SolutionDir)\Lib\SDL2_mixer\lib\;$(SolutionDir)\Lib\SDL2_ttf\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006  /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

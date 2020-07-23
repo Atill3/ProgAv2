@@ -1,0 +1,12 @@
+<project>
+	<!-- REGISTER THE PROJECT'S PREFAB -->
+	<prefabs>
+		<prefab name="dog" filename="assets/dogs.prefab"/>
+		<prefab name="controller" filename="assets/controller.prefab"/>
+	</prefabs>
+	
+	<scenes>
+		<scene name="title" filename="assets/Screen01.tmx"/>
+		<scene name="level11" filename="assets/Screen02.tmx"/>
+	</scenes>
+</project>

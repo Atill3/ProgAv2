@@ -1,0 +1,6 @@
+﻿  SdlGraphics.cpp
+D:\H2020V2\ProgAvance - 2\Bart2D-3.0.1 - Copy\Bart2D\sources\SdlGraphics.cpp(240,58): error C2061: syntax error: identifier 'SDL_RenderFlip'
+D:\H2020V2\ProgAvance - 2\Bart2D-3.0.1 - Copy\Bart2D\sources\SdlGraphics.cpp(242,2): warning C4551: function call missing argument list
+  SdlInput.cpp
+  Transform.cpp
+  Generating Code...

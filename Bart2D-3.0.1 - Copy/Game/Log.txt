@@ -1,0 +1,8 @@
+File Logger Initialized
+Console Logger Initialized
+Graphic Initialized
+Timer Initialized
+Input Initialized
+Everything Initialized
+Bart Egine Verion: 3.0.1
+Game is Running
